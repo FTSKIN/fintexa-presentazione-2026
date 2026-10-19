@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Asset type: premium 3D financial technology icon for an editable Fintexa HTML presentation.
+Primary request: an elegant open digital wallet sculpture in deep satin blue, holding exactly two abstract optical-glass cards in luminous azure. A compact horizontally oriented object, physically plausible and refined, with no branding.
+Scene/backdrop: truly transparent background, isolated product cutout, no environment, no coloured rectangle, no floor plane or backdrop. Output a PNG with genuine transparent alpha.
+Subject: a rounded slim wallet body made from smooth satin-blue material with a pale satin aluminium structural edge, partly open so that two overlapping rounded rectangular transparent blue glass cards rise from it. The cards have absolutely blank faces. Fine bevels, restrained metal hinge detail, thick optical edges. One coherent object, simple and clear at small slide size.
+Style/medium: exceptional photorealistic industrial 3D product render, contemporary premium business technology; matching an engineered optical-glass and satin-metal modular infrastructure sculpture. Restrained material detail with precise clean geometry.
+Composition/framing: horizontal compact silhouette, three-quarter product view slightly from above. Entire object visible with generous transparent breathing room all around, no clipping, centered, approximately a 3:2 horizontal occupied area.
+Lighting/mood: soft white studio lighting, crisp but controlled white edge highlights, realistic blue transmission and refraction through the two glass cards, elegant depth, discreet contact shadow beneath the object, readable on near-white and navy surfaces. No neon or glowing fog.
+Color palette: deep navy #0D3052, blue #428CCA, azure #419BD5, icy white highlights and pale brushed aluminium.
+Materials/textures: satin-blue wallet body, smooth metal rim, optical azure glass cards, physically realistic reflections. No cheap plastic, no leather stitching.
+Constraints: exactly two blank cards; no text, no letters, no numbers, no logos, no payment network insignia, no currency symbols, no coins, no cash, no lock icon, no screen, no person, no hands, no city, no background, no checkerboard pixels, no watermark. Genuine transparency.
+
+Targeted edit:
+Edit the provided wallet image. Preserve the exact wallet silhouette, framing, viewing angle, two blank optical-blue glass cards, navy satin body and pale metal trim. Remove all of the extensive blue and grey haze, luminous aura and broad diffuse glow around the wallet, leaving strictly transparent empty pixels around the object. No coloured halo and no background. Preserve clean glass refraction within the actual two cards and crisp soft white studio reflections on the object's surfaces. Keep only a small restrained contact shadow immediately underneath the wallet; no shadow rising up around its sides. The result must be a clean professional product cutout on a genuine alpha background, readable when placed over white or navy. No text, logos, numbers, currency or insignia. Do not add anything else.
+
+Generated and refined using built-in image_gen with transparent_background=true. No manual pixel editing.

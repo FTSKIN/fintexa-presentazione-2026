@@ -1,0 +1,217 @@
+/* Fintexa — leggibilità da proiezione, ritmo e visual 3D. */
+.dark{--muted:#d2e2ef;--accent:#99d9ff;--line:#a6d5f542}
+.light{--muted:#365770;--accent:#176ca7;--line:#163e5f30}
+.slide p,.slide small{font-weight:500}
+h2{letter-spacing:-.045em;line-height:1.1}
+h3{letter-spacing:-.025em;line-height:1.25}
+@keyframes arrive{from{opacity:1;transform:translateY(6px)}to{opacity:1;transform:none}}
+.visual-3d{position:absolute;display:block;object-fit:contain;pointer-events:none;filter:drop-shadow(0 18px 25px #0d30521c)}
+.core-visual{right:3cqw;top:10cqh;width:37cqw;height:51cqh}
+.security-visual{right:6cqw;top:16cqh;width:17cqw;height:29cqh;filter:drop-shadow(0 15px 22px #0003)}
+.wallet-visual{left:6cqw;top:64cqh;width:38cqw;height:24cqh;object-position:left center;filter:none}
+.bank-mark svg{display:block;width:86%;height:auto}
+
+@media(min-width:701px) and (min-aspect-ratio:4/5){
+  .eyebrow{font-size:1.25cqw;letter-spacing:.09em}
+  .slide>h2{top:23cqh;font-size:4.4cqw;line-height:1.1}
+  .intro,.open-banking>.intro,.banking>.intro{top:46cqh;font-size:1.95cqw;line-height:1.45;max-width:84cqw}
+  .inline-link,.open-banking .inline-link{font-size:1.55cqw;line-height:1.4}
+  .cover-kicker{font-size:1.2cqw}
+  .cover-subtitle{font-size:2.35cqw;top:60cqh;font-weight:500}
+  .cover-link{font-size:1.6cqw;bottom:6cqh;padding:1.6cqh 1.8cqw;border:1px solid #b7e3ff42;border-radius:.7cqw;background:#0b2943dd;backdrop-filter:blur(18px)}
+  .manifesto>h2{font-size:5.4cqw;top:24cqh}
+  .manifesto-copy{top:51cqh;font-size:2.35cqw;width:73cqw;line-height:1.45}
+  .manifesto-base{bottom:8cqh;gap:5cqw}
+  .manifesto-base p{font-size:1.8cqw;line-height:1.45;padding-top:2.6cqh}
+  .history>h2{font-size:4.9cqw}
+  .timeline{top:51cqh;gap:2.5cqw}
+  .timeline strong{font-size:3.25cqw;margin-bottom:1.8cqh}
+  .timeline span{font-size:1.8cqw;line-height:1.3;min-height:8.5cqh}
+  .timeline p{font-size:1.65cqw;line-height:1.45;margin-top:1.8cqh}
+  .core>h2{max-width:57cqw}
+  .core .intro{max-width:49cqw;font-size:1.9cqw;top:47cqh}
+  .core-band{bottom:7cqh;height:29cqh;grid-template-columns:27% 10% 63%}
+  .core-name{border-radius:1cqw;padding:2.4cqw;background:linear-gradient(135deg,#174b72,#0d3052);box-shadow:inset 0 1px #fff5,0 15px 30px #0d305214}
+  .core-name>span{font-size:2.5cqw}
+  .core-name>strong{font-size:3.15cqw}
+  .core-capabilities{padding-left:2cqw}
+  .core-capabilities p{grid-template-columns:minmax(0,.8fr) minmax(0,1.25fr);gap:1.8cqw}
+  .core-capabilities strong{font-size:2.05cqw;letter-spacing:-.03em}
+  .core-capabilities span{font-size:1.7cqw;line-height:1.35}
+  .catalogue>h2{font-size:4.2cqw;top:22cqh}
+  .solution-list{top:45.5cqh;column-gap:5cqw}
+  .solution-list a{min-height:15cqh;padding:2.2cqh 0;column-gap:1cqw}
+  .solution-list strong{font-size:2.2cqw;line-height:1.2}
+  .solution-list small{font-size:1.6cqw;line-height:1.4;margin-top:1cqh}
+  .solution-list a>span{font-size:1.25cqw}
+  .open-banking>h2{font-size:4.25cqw}
+  .open-banking>.intro{max-width:84cqw}
+  .open-services{top:59cqh;gap:3.5cqw}
+  .open-services article{padding-top:2cqh}
+  .service-code{font-size:3.25cqw;margin-bottom:1.8cqh}
+  .open-services h3{font-size:2.1cqw;line-height:1.25}
+  .open-services p{font-size:1.75cqw;line-height:1.4;margin-top:1.5cqh}
+  .open-banking .inline-link{bottom:3.5cqh}
+  .accounts>h2{font-size:4.4cqw}
+  .account-flow{top:48cqh;height:37cqh;grid-template-columns:23% 6% 38% 33%}
+  .accounts-input{gap:1.2cqh}
+  .accounts-input>div{padding:1.8cqh 1.6cqw;grid-template-columns:3.3cqw minmax(0,1fr);border-radius:.9cqw;background:#163e5fe8}
+  .accounts-input strong{font-size:1.75cqw}
+  .accounts-input div>span:last-child{font-size:1.35cqw;margin-top:.6cqh}
+  .bank-mark{font-size:2.8cqw}
+  .account-engine{padding:3.8cqh 2.5cqw;background:linear-gradient(135deg,#2c6c9de8,#163954);border-radius:1.2cqw}
+  .account-engine>span{font-size:1.2cqw;letter-spacing:.035em}
+  .account-engine strong{font-size:2.65cqw;line-height:1.2;margin-top:2.2cqh}
+  .account-engine p{font-size:1.8cqw;line-height:1.4;margin-top:2cqh}
+  .account-output{padding-left:2.8cqw}
+  .account-output h3{font-size:2cqw;margin-top:2cqh}
+  .account-output p{font-size:1.65cqw;line-height:1.4;margin-top:1.3cqh}
+  .account-caption{bottom:5cqh;font-size:1.65cqw;line-height:1.4}
+  .product-heading{width:43cqw;top:18cqh}
+  .product-heading h2{font-size:4.45cqw;line-height:1.12}
+  .product-heading>p:last-child{font-size:2cqw;line-height:1.45;max-width:40cqw;margin-top:4cqh}
+  .product-features{left:54cqw;top:20cqh}
+  .product-features article{grid-template-columns:3.2cqw minmax(0,1fr);column-gap:1.2cqw;row-gap:0;padding:2.9cqh 0}
+  .product-features article>span{font-size:1.25cqw;padding-top:.5cqh}
+  .product-features h3{font-size:2.35cqw;line-height:1.2}
+  .product-features p{font-size:1.85cqw;line-height:1.4;margin-top:1.7cqh}
+  .product-tag{font-size:1.4cqw;bottom:6cqh;padding-top:2.4cqh}
+  .product-tag span{font-size:1.25cqw}
+  .banking-grid{bottom:9cqh;gap:3cqw}
+  .banking-grid article{padding:3cqh 1.3cqw 2cqh;border-top:2px solid #73bdec9c;background:linear-gradient(#204e6e3d,#204e6e0d);border-radius:.5cqw}
+  .large-symbol{font-size:3.3cqw;margin-bottom:2.6cqh}
+  .banking-grid h3{font-size:1.95cqw;line-height:1.35;letter-spacing:-.025em}
+  .chain-topics{bottom:8cqh;gap:4cqw}
+  .chain-topics article>span{font-size:1.3cqw}
+  .chain-topics h3{font-size:2.6cqw;margin-top:2cqh}
+  .chain-topics p{font-size:1.85cqw;line-height:1.45;margin-top:2cqh}
+  .chain-rail{top:48cqh;opacity:.6}
+  .public-services>h2{font-size:4.1cqw}
+  .public-copy{top:47cqh;font-size:1.95cqw;line-height:1.45;max-width:87cqw}
+  .public-band{top:63cqh;gap:3.5cqw}
+  .public-band>div{padding-top:2cqh}
+  .public-band strong{font-size:2.3cqw}
+  .public-band p{font-size:1.8cqw;line-height:1.4;margin-top:1.8cqh}
+  .public-services .inline-link{bottom:3.5cqh;font-size:1.55cqw}
+  .payment-steps{top:49cqh;gap:2.2cqw}
+  .payment-steps li{padding-top:2cqh}
+  .payment-steps li>span{font-size:1.35cqw}
+  .payment-steps h3{font-size:1.95cqw;margin-top:2cqh;letter-spacing:-.045em}
+  .payment-steps p{font-size:1.65cqw;line-height:1.4;margin-top:1.7cqh}
+  .role-band{bottom:6cqh;padding-top:2.5cqh;gap:3.5cqw}
+  .role-band strong{font-size:2.1cqw}
+  .role-band p{font-size:1.65cqw;line-height:1.45}
+  .nexio-list{top:48cqh;left:51cqw}
+  .nexio-list p{padding:1.1cqh 0}
+  .nexio-list strong{font-size:2.05cqw}
+  .nexio-list span{font-size:1.7cqw;line-height:1.4;margin-top:1cqh}
+  .nexio-word{font-size:12.5cqw;bottom:16cqh}
+  .choice-options{top:50cqh;grid-template-columns:1fr 7cqw 1fr}
+  .choice-options article{padding:3.5cqh 3cqw;border-radius:1cqw}
+  .choice-label{font-size:1.25cqw;letter-spacing:.065em}
+  .choice-options h3{font-size:2.5cqw;line-height:1.3;margin-top:2.2cqh}
+  .or{font-size:1.4cqw}
+  .choice-core{bottom:6cqh;align-items:flex-start}
+  .choice-core strong{font-size:1.6cqw;line-height:1.4}
+  .choice-core p{font-size:1.65cqw;line-height:1.4;max-width:56cqw}
+  .assurance>h2{font-size:4.2cqw;max-width:72cqw}
+  .iso-panel{top:48cqh;bottom:6cqh;width:41cqw;padding:3.4cqh 3cqw;background:linear-gradient(135deg,#367dac6b,#143853b3);border-radius:1.3cqw}
+  .iso-panel>span{font-size:1.3cqw;letter-spacing:.1em}
+  .iso-panel>strong{font-size:3cqw;margin-top:2cqh}
+  .iso-panel b{font-size:7.4cqw;letter-spacing:-.045em}
+  .iso-panel>p{font-size:1.9cqw;line-height:1.4;margin-top:2.7cqh}
+  .assurance-list{left:52cqw;top:48cqh}
+  .assurance-list article{padding:2.2cqh 0}
+  .assurance-list article>span{font-size:1.4cqw;letter-spacing:.02em;display:inline-block;margin-right:1cqw}
+  .assurance-list h3{display:inline;font-size:2cqw;margin-top:0}
+  .assurance-list p{font-size:1.65cqw;line-height:1.4;margin-top:1.4cqh}
+  .assurance-list article.sla{padding-top:2cqh;gap:2.5cqw}
+  .sla>strong{font-size:4cqw}
+  .sla>p{font-size:1.55cqw}
+  .closing>h2{font-size:5.15cqw;top:25cqh;line-height:1.1;max-width:88cqw}
+  .closing-flow{opacity:.22}
+  .contact-block{top:61cqh;padding:2.8cqh 2.2cqw;width:40cqw;gap:1.6cqh;background:linear-gradient(120deg,#0c2c47f2,#0b263de8);border:1px solid #a2d8fc40;border-radius:1cqw;box-shadow:inset 0 1px #c6e9ff1a;backdrop-filter:blur(16px)}
+  .contact-block a{font-size:2.3cqw;line-height:1.3}
+  .contact-block p{font-size:1.85cqw;line-height:1.4;margin-top:.5cqh}
+  .closing-claim{font-size:2.2cqw;bottom:8cqh}
+}
+
+@media(max-width:700px),(max-aspect-ratio:4/5){
+  body{height:100dvh;min-height:0;overflow:hidden;padding-bottom:84px}
+  .stage{height:calc(100dvh - 84px);min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain}
+  .slide{min-height:100%}
+  .slide{padding-left:26px;padding-right:26px;padding-bottom:54px}
+  .brand{left:26px}
+  .slide>h2,h2,.product-heading h2,.manifesto h2,.banking>h2,.open-banking>h2,.history>h2,.closing>h2,.assurance>h2,.public-services>h2,.choice>h2{font-size:clamp(32px,8.8cqw,42px);line-height:1.15;letter-spacing:-.045em;overflow-wrap:normal;text-wrap:pretty}
+  .intro,.open-banking>.intro,.banking>.intro,.manifesto-copy,.product-heading>p:last-child,.public-copy{font-size:19px;line-height:1.5}
+  .slide .intro{position:relative;left:auto;right:auto;top:auto;bottom:auto;width:auto;max-width:none}
+  .eyebrow{font-size:12px;line-height:1.5}
+  .visual-3d{position:relative;left:auto;right:auto;top:auto;bottom:auto;max-width:100%;margin:26px auto;object-fit:contain}
+  .core-visual{width:260px;height:250px}
+  .security-visual{width:140px;height:165px;margin:26px 0 0}
+  .wallet-visual{width:280px;height:190px;object-position:center}
+  .manifesto-base p,.timeline p{font-size:17px;line-height:1.5}
+  .timeline span{font-size:21px;line-height:1.35}
+  .core-name{padding:28px;border-radius:12px;background:linear-gradient(135deg,#174b72,#0d3052)}
+  .core-capabilities p{grid-template-columns:minmax(0,1fr);padding:23px 2px;gap:8px}
+  .core-capabilities strong{font-size:21px}
+  .core-capabilities span{font-size:17px;line-height:1.5}
+  .solution-list strong{font-size:22px;line-height:1.25}
+  .solution-list small{font-size:17px;line-height:1.45;margin-top:8px}
+  .solution-list a{padding:23px 0}
+  .open-services h3,.product-features h3{font-size:24px;line-height:1.25}
+  .open-services p,.product-features p,.public-band p,.chain-topics p{font-size:18px;line-height:1.5}
+  .inline-link,.open-banking .inline-link,.public-services .inline-link{font-size:16px;line-height:1.5}
+  .accounts-input>div{padding:20px 22px;grid-template-columns:38px minmax(0,1fr)}
+  .accounts-input strong{font-size:20px}
+  .accounts-input div>span:last-child{font-size:16px;line-height:1.4;margin-top:4px}
+  .account-engine{padding:28px 24px;background:linear-gradient(135deg,#2c6c9de8,#163954)}
+  .account-engine>span{font-size:12px;line-height:1.5}
+  .account-engine strong{font-size:29px;line-height:1.2}
+  .account-engine p,.account-output p{font-size:18px;line-height:1.5}
+  .account-output h3{font-size:23px}
+  .account-caption{font-size:17px;line-height:1.5}
+  .product-features article{grid-template-columns:26px minmax(0,1fr);column-gap:12px;row-gap:0}
+  .product-tag,.product-tag span{font-size:12px;line-height:1.5;letter-spacing:.045em}
+  .banking-grid{gap:24px 16px}
+  .banking-grid article{padding:22px 12px;border-top:2px solid #73bdec9c;background:linear-gradient(#204e6e3d,#204e6e0d)}
+  .banking-grid h3{font-size:18px;line-height:1.4;letter-spacing:-.025em}
+  .large-symbol{font-size:27px}
+  .payment-steps p{font-size:18px;line-height:1.5}
+  .payment-steps h3{font-size:25px}
+  .role-band p{font-size:17px;line-height:1.5}
+  .nexio-list strong{font-size:23px;line-height:1.3}
+  .nexio-list span{font-size:18px;line-height:1.5}
+  .choice-options article{padding:28px 24px}
+  .choice-options h3{font-size:26px;line-height:1.35}
+  .choice-label{font-size:12px;line-height:1.5}
+  .choice-core strong{font-size:17px;line-height:1.4}
+  .choice-core p{font-size:18px;line-height:1.5}
+  .iso-panel{padding:28px;background:linear-gradient(135deg,#367dac6b,#143853b3)}
+  .iso-panel>span{font-size:12px;letter-spacing:.08em}
+  .iso-panel>p{font-size:20px;line-height:1.4}
+  .assurance-list article>span{font-size:15px}
+  .assurance-list h3{font-size:25px;line-height:1.25}
+  .assurance-list p{font-size:18px;line-height:1.5}
+  .sla>p{font-size:17px}
+  .closing-flow{opacity:.13}
+  .contact-block{padding:24px 22px;border:1px solid #a2d8fc40;border-radius:12px;background:#0c2c47ed;gap:19px;backdrop-filter:blur(16px)}
+  .contact-block a{font-size:22px;line-height:1.35;gap:12px}
+  .contact-block p{font-size:18px;line-height:1.5}
+  .closing-claim{font-size:26px;margin-top:50px}
+  .cover-link{padding:15px 18px;border:1px solid #b7e3ff42;border-radius:9px;background:#0b2943e8;font-size:16px;display:inline-flex}
+  .controls{background:#102a3fee;border-color:#c2eaff45}
+}
+
+@media(max-width:380px){
+  .banking-grid{grid-template-columns:1fr}
+  .banking-grid article{padding:24px}
+  .banking-grid h3{font-size:21px;line-height:1.4}
+  .banking-grid .large-symbol{margin-bottom:15px}
+}
+
+@media print{
+  body{height:auto;overflow:visible}
+  .stage{height:auto;overflow:visible}
+  .visual-3d{position:absolute}
+}

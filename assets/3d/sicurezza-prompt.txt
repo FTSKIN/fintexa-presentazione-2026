@@ -1,0 +1,9 @@
+Mode: built-in image_gen; new image; transparent_background=true.
+Use case: stylized-concept.
+Asset type: one isolated transparent PNG 3D visual for a premium Fintexa business-tech HTML presentation.
+Primary request: A single precision-built security shield sculptural object, upright, in a restrained three-quarter perspective. A thick optical azure glass shield shell surrounds an inset satin dark-blue metal shield core. The glass and metal meet in an exact architectural joint. A small simple keyhole is cut into the central metal core; this is an object detail, not a separate badge or symbol.
+Scene/backdrop: genuine transparent background with real alpha; isolated cutout, no room, floor, platform or surrounding props.
+Composition/framing: single object centered, fully visible with generous clean transparent margin on all sides, tall shield silhouette, camera slightly above level, near-front three-quarter view that clearly shows thick glass edges.
+Lighting/mood: polished studio product render, broad soft white studio lights, physically credible refraction and subtle controlled white highlights. Modern, substantial, calm, premium enterprise technology.
+Color palette: Fintexa navy #0D3052, medium blue #428CCA, azure #419BD5, white light only. Optically clear blue glass and softly satin blue metal; retain natural material depth.
+Constraints: exactly ONE shield object. Real transparent alpha outside the object, no printed background or checkerboard. No text, letters, numbers, logo, watermark, check mark, certification seals or badges. No padlock, separate symbols, floating fragments, supporting pedestal, neon glow, rays, smoky clouds, environment, toy-like plastic or extraneous colors.

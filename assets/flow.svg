@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="glass-surface" x1="340" y1="910" x2="1480" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D3052" stop-opacity=".04"/>
+      <stop offset=".48" stop-color="#428CCA" stop-opacity=".12"/>
+      <stop offset=".82" stop-color="#419BD5" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#F7FAFC" stop-opacity=".03"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="-80" y1="800" x2="1560" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#103E66"/>
+      <stop offset=".23" stop-color="#1F628F"/>
+      <stop offset=".47" stop-color="#428CCA"/>
+      <stop offset=".66" stop-color="#419BD5"/>
+      <stop offset=".8" stop-color="#9DD9F3"/>
+      <stop offset=".9" stop-color="#428CCA"/>
+      <stop offset="1" stop-color="#0D3052"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="40" y1="900" x2="1490" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#419BD5" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#419BD5" stop-opacity=".4"/>
+      <stop offset=".69" stop-color="#F7FAFC" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#419BD5" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="filament" x1="200" y1="820" x2="1530" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7F2FF" stop-opacity=".05"/>
+      <stop offset=".4" stop-color="#D7F2FF" stop-opacity=".32"/>
+      <stop offset=".75" stop-color="#F7FAFC" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#419BD5" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="300" y1="790" x2="1510" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#419BD5" stop-opacity="0"/>
+      <stop offset=".64" stop-color="#419BD5" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#419BD5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-light" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <path id="lane-1" d="M-100 660H1080A320 320 0 0 0 1400 340V-100"/>
+    <path id="lane-2" d="M-100 682H1080A342 342 0 0 0 1422 340V-100"/>
+    <path id="lane-3" d="M-100 704H1080A364 364 0 0 0 1444 340V-100"/>
+    <path id="lane-4" d="M-100 726H1080A386 386 0 0 0 1466 340V-100"/>
+    <path id="lane-5" d="M-100 748H1080A408 408 0 0 0 1488 340V-100"/>
+    <path id="lane-6" d="M-100 770H1080A430 430 0 0 0 1510 340V-100"/>
+    <path id="lane-7" d="M-100 792H1080A452 452 0 0 0 1532 340V-100"/>
+    <path id="lane-8" d="M-100 814H1080A474 474 0 0 0 1554 340V-100"/>
+    <path id="lane-9" d="M-100 836H1080A496 496 0 0 0 1576 340V-100"/>
+  </defs>
+
+  <!-- Broad backing plane: every surface and highlight remains editable vector geometry. -->
+  <path d="M-100 627H1080A287 287 0 0 0 1367 340V-100H1616V340A536 536 0 0 1 1080 876H-100Z" fill="url(#glass-surface)"/>
+  <use href="#lane-5" stroke="url(#wash)" stroke-width="216" filter="url(#soft-light)"/>
+
+  <!-- Recessed channels make the individual glass pathways legible. -->
+  <g stroke="#05182C" stroke-width="23" opacity=".85" transform="translate(1 5)">
+    <use href="#lane-1"/><use href="#lane-2"/><use href="#lane-3"/>
+    <use href="#lane-4"/><use href="#lane-5"/><use href="#lane-6"/>
+    <use href="#lane-7"/><use href="#lane-8"/><use href="#lane-9"/>
+  </g>
+  <g stroke="url(#ribbon)" stroke-width="17" opacity=".94">
+    <use href="#lane-1"/><use href="#lane-2"/><use href="#lane-3"/>
+    <use href="#lane-4"/><use href="#lane-5"/><use href="#lane-6"/>
+    <use href="#lane-7"/><use href="#lane-8"/><use href="#lane-9"/>
+  </g>
+  <g stroke="url(#filament)" stroke-width="1.4" transform="translate(-5 -5)">
+    <use href="#lane-1"/><use href="#lane-2"/><use href="#lane-3"/>
+    <use href="#lane-4"/><use href="#lane-5"/><use href="#lane-6"/>
+    <use href="#lane-7"/><use href="#lane-8"/><use href="#lane-9"/>
+  </g>
+  <g stroke="#071D32" stroke-width="1.8" opacity=".42" transform="translate(6 6)">
+    <use href="#lane-1"/><use href="#lane-2"/><use href="#lane-3"/>
+    <use href="#lane-4"/><use href="#lane-5"/><use href="#lane-6"/>
+    <use href="#lane-7"/><use href="#lane-8"/><use href="#lane-9"/>
+  </g>
+
+  <!-- The outer glass edge is offset in blue and white, giving restrained dispersion. -->
+  <path d="M-100 627H1080A287 287 0 0 0 1367 340V-100" stroke="url(#edge)" stroke-width="1.1"/>
+  <path d="M-100 631H1080A291 291 0 0 0 1371 340V-100" stroke="#419BD5" stroke-width="2" opacity=".24"/>
+  <path d="M-100 876H1080A536 536 0 0 0 1616 340V-100" stroke="url(#edge)" stroke-width="1.4"/>
+  <path d="M-100 872H1080A532 532 0 0 0 1612 340V-100" stroke="#428CCA" stroke-width="2.4" opacity=".17"/>
+</svg>

@@ -1,0 +1,13 @@
+Use case: stylized-concept.
+Asset type: premium 3D hero cutout for a Fintexa financial infrastructure HTML presentation.
+Primary request: a sophisticated compact modular technology sculpture: exactly three refined optical glass modules linked together by a tightly organised bundle of parallel blue channels. The modules represent infrastructure and integration abstractly, without literal computer devices.
+Scene/backdrop: truly transparent background, isolated freestanding object, no environment, no floor plane, no backdrop, no colour rectangle. Output a transparent PNG preserving genuine alpha.
+Subject: three large rounded rectangular optical blocks, with slim satin aluminium frames and layered translucent azure glass cores; a small set of broad flat parallel channels connects the three blocks in a coherent routed architectural system. The system feels engineered, substantial, clear and controlled. No wires dangling. No small unrelated pieces.
+Style/medium: exceptional photorealistic industrial 3D product rendering, elegant contemporary business technology, physically realistic refraction and glass thickness, high quality fine material detail.
+Composition/framing: entire sculpture visible with generous transparent margin on every side, compact approximately square silhouette, vertical three-quarter isometric view, slightly rising from lower-left to upper-right. Three modules visibly distinct, connected as one integrated object, no text.
+Lighting/mood: large soft white studio lights, subtle crisp edge highlights, luminous restrained blue light transmitted through the glass, physically realistic reflections, gentle depth and a very subtle translucent contact shadow directly beneath the object; balanced readable edges suitable both on navy and near-white backgrounds.
+Color palette: deep navy #0D3052, medium blue #428CCA, azure #419BD5, icy white highlights, satin pale aluminium. No orange, purple, green or black plastic.
+Materials/textures: thick optical glass with understated blue refraction and polished chamfered edges, finely brushed satin metal. No artificial glow fog.
+Constraints: exactly three main modules, abstract technological sculpture, no lettering or numbers, no logos, no watermarks, no coins, no currency signs, no UI screens, no city, no buildings, no hands, no sphere, no orbit, no circuit-board chip, no backdrop. Keep the background fully transparent, not white and not a checkerboard image.
+
+Generated using the built-in image_gen tool with transparent_background=true.
