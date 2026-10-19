@@ -105,6 +105,7 @@
 }
 
 @media(max-width:700px),(max-aspect-ratio:4/5){
+  .line-field{display:none}
   .cover h1>.second-line{margin-left:0}
   .cover-subtitle{width:auto;padding:18px 20px;border-radius:14px}
   .manifesto-graphic,.ob-graphic{position:relative;left:auto;right:auto;top:auto;width:100%;height:260px;margin:34px 0 0}
@@ -122,7 +123,7 @@
   .timeline>li>span{font-size:21px;line-height:1.35}
   .timeline p{font-size:17px;line-height:1.5}
   .timeline li:last-child{border-color:#99d9ffab}
-  .solution-list{display:grid;gap:12px}
+  .solution-list{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
   .solution-list a{padding:22px 18px;grid-template-columns:24px minmax(0,1fr) 18px;column-gap:7px}
   .solution-list strong{font-size:21px;line-height:1.3}
   .solution-list small{font-size:16px;line-height:1.5}
@@ -154,7 +155,8 @@
   .network-names>div{padding:25px 24px;font-size:26px}
   .network-names>div:last-child{font-size:23px}
   .core-capabilities{display:grid;gap:12px;padding:0}
-  .core-capabilities p{grid-template-columns:minmax(105px,38%) minmax(0,62%);gap:12px;padding:18px 20px;margin:0;border:1px solid #8bc8ee70;overflow:hidden}
+  .core-capabilities p{grid-template-columns:minmax(0,1fr);gap:8px;padding:20px;margin:0;border:1px solid #8bc8ee70;overflow:hidden}
+  .core-capabilities span{font-size:16px;line-height:1.45}
   .core-capabilities strong,.core-capabilities span{min-width:0}
 }
 
