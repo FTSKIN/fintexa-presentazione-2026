@@ -60,10 +60,10 @@
   .solution-list strong{font-size:2.05cqw}
   .solution-list small{font-size:1.55cqw;line-height:1.35;margin-top:.6cqh}
   .solution-list b{font-size:2cqw}
-  .open-services{top:58cqh;gap:2cqw}
-  .open-services article{padding:2cqh 1.8cqw}
-  .open-services h3{font-size:2.05cqw}
-  .open-services p{font-size:1.7cqw;line-height:1.4;margin-top:1.3cqh}
+  .open-services{top:61cqh;gap:2cqw}
+  .open-services article{min-height:17cqh;padding:2.2cqh 1.8cqw;display:flex;flex-direction:column;justify-content:center}
+  .open-services h3{font-size:1.82cqw;line-height:1.2;color:var(--accent)}
+  .open-services p{font-size:1.45cqw;line-height:1.35;margin-top:1cqh}
   .service-code{font-size:3.05cqw;line-height:1.1;margin-bottom:1.6cqh}
   .product-features{display:grid;gap:1.2cqh}
   .product-features article{padding:2.2cqh 1.6cqw;grid-template-columns:2.5cqw minmax(0,1fr);column-gap:1cqw}
@@ -410,6 +410,7 @@
   .solution-list strong{font-size:21px;line-height:1.28;text-wrap:balance}
   .solution-list small{font-size:16px;line-height:1.48}
   .open-services,.product-features,.banking-grid,.chain-topics,.public-band,.payment-steps,.nexio-list,.network-names,.assurance-list{gap:14px}
+  .open-services{display:grid;grid-template-columns:minmax(0,1fr);margin-top:28px}
   .open-services article,.product-features article,.banking-grid article,.chain-topics article,.public-band>div,.payment-steps li,.nexio-list p,.network-names>div,.assurance-list article{
     margin:0;padding:22px 20px;border-radius:16px
   }
