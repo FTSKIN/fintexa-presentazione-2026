@@ -180,9 +180,9 @@
   /* Certificazioni: lo scudo diventa un fondale in vetro dietro alle card. */
   .assurance{isolation:isolate}
   .security-visual{
-    right:2cqw;top:30cqh;width:34cqw;height:58cqh;z-index:0;opacity:.34;
-    filter:drop-shadow(0 0 2.8cqw #5fc5ff70) saturate(1.18);
-    transform:rotate(3deg)
+    right:-6cqw;top:18cqh;width:54cqw;height:78cqh;z-index:0;opacity:.58;
+    filter:drop-shadow(0 0 4cqw #5fc5ff8f) saturate(1.28) contrast(1.04);
+    transform:rotate(3deg) scale(1.03)
   }
   .iso-panel,.assurance-list{z-index:2;backdrop-filter:blur(15px) saturate(1.12)}
   .assurance-list{top:48cqh;bottom:7cqh;display:grid;grid-template-rows:1fr 1fr .82fr;gap:1.1cqh}
