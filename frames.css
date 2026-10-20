@@ -281,10 +281,10 @@
 
 @media(max-width:700px),(max-aspect-ratio:4/5){
   .manifesto-graphic{width:100%;height:auto;margin:34px auto 0;border-radius:14px;padding:54px 18px 18px}.manifesto-graphic:before{left:20px;top:22px;font-size:9px}.manifesto-graphic:after{right:20px;top:24px;width:44px;height:4px}.mg-node{height:74px;padding:0 18px;margin-bottom:12px;border-radius:11px;font-size:10px}.mg-core{height:88px;font-size:12px}.mg-node:after{width:20px}
-  .ob-graphic{position:relative;left:auto;right:auto;top:auto;width:100%;height:276px;margin:34px 0 0;border-radius:14px}
-  .ob-account{left:18px!important;width:42%;height:62px;padding:10px 12px}.ob-a{top:18px}.ob-b{top:107px}.ob-c{top:196px}.ob-account span{font-size:8px}.ob-account b{font-size:12px}
-  .ob-hub{left:58%;right:18px;top:18px;height:240px;padding:22px 18px}.ob-hub small{font-size:9px}.ob-hub strong{font-size:16px}
-  .ob-path{left:44%!important;width:14%!important}.ob-path-a{top:49px}.ob-path-b{top:138px}.ob-path-c{top:227px}
+  .ob-graphic{position:relative;left:auto;right:auto;top:auto;width:100%;height:250px;margin:28px 0 0;padding:18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:68px 78px;gap:56px 10px;border-radius:14px}
+  .ob-account{position:relative;left:auto!important;top:auto!important;width:auto;height:68px;padding:11px 10px;border-radius:10px}.ob-account span{font-size:8px}.ob-account b{font-size:11px}
+  .ob-hub{position:relative;grid-column:1/-1;left:auto;right:auto;top:auto;bottom:auto;height:78px;padding:17px 20px;display:flex;flex-direction:row;justify-content:center;align-items:baseline;gap:10px;border-radius:12px}.ob-hub small{font-size:9px}.ob-hub strong{font-size:16px}
+  .ob-path{top:86px!important;width:1px!important;height:48px!important;background:#419bd58c!important}.ob-path-a{left:16.7%!important}.ob-path-b{left:50%!important}.ob-path-c{left:83.3%!important}
   .nexio-module,.choice-graphic{position:relative;left:auto;right:auto;top:auto;width:100%;height:260px;margin-top:34px;border-radius:14px}
   .nexio-module{padding:26px}.nexio-module small{font-size:10px}.nexio-module strong{font-size:72px;margin-top:24px}.nexio-module>div{left:26px;right:26px;bottom:58px}.nexio-module>span{left:26px;bottom:24px;font-size:9px}
   .choice-graphic span{font-size:10px}.cg-client{height:88px}.cg-own,.cg-proposed{height:70px}.choice-graphic i{top:88px;height:82px}.console-bar i{position:static;top:auto;width:6px;height:6px}.choice-console{padding:52px 16px 14px;border-radius:14px}.console-bar{height:42px;padding:0 16px}.console-bar span{font-size:8px}.console-lane{padding:12px;margin-bottom:10px;border-radius:10px}.console-lane small{font-size:8px}.console-lane strong{font-size:13px}.console-lane>span{font-size:7px;padding:6px 8px}.console-core{padding:12px;border-radius:10px}.console-core b{font-size:13px}.console-core span{font-size:8px}
@@ -436,9 +436,18 @@
   .choice-core p{font-size:17px;line-height:1.5;margin:0}
   .network-names{margin-top:32px}
   .network-names>div{font-size:24px;line-height:1.25}
-  .security-visual{display:block;margin:26px auto 0}
-  .iso-panel{margin-top:30px;padding:26px 24px}
-  .iso-panel b{font-size:clamp(70px,21vw,84px)}
+  .assurance>h2{font-size:32px;line-height:1.12;letter-spacing:-.05em}
+  .security-visual{display:block;width:190px;height:210px;margin:20px auto 0;filter:drop-shadow(0 0 34px #59c7ff70) saturate(1.2)}
+  .iso-panel{margin-top:18px;padding:22px 20px;border-radius:16px}
+  .iso-panel>strong{margin-top:15px}
+  .iso-panel b{font-size:clamp(62px,18vw,72px)}
+  .iso-panel>p{font-size:17px;line-height:1.42;margin-top:14px}
+  .assurance-list{margin-top:18px;gap:12px}
+  .assurance-list article{padding:18px 20px;border-radius:16px}
+  .assurance-list h3{font-size:20px;line-height:1.25;margin-top:7px}
+  .assurance-list p{font-size:15px;line-height:1.42;margin-top:8px}
+  .assurance-list article.sla{padding:17px 20px;gap:16px}
+  .sla>strong{font-size:42px}
   .contact-block{width:100%;padding:24px 22px}
   .contact-block a{font-size:21px;line-height:1.35}
   .closing-claim{margin-top:52px}
