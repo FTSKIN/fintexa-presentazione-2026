@@ -32,12 +32,12 @@ Gli oggetti illustrativi sono stati prodotti con ImageGen integrato e conservati
 
 ## Fonti e direttive
 
-Contenuti ricavati dalla presentazione aziendale di 25 pagine e dai due articoli forniti dall’utente, con correzioni successive che prevalgono sul materiale originale. Escluse pagine e sezioni indicate dall’utente. I nomi attuali sono Core Fintexa, System Open Banking, Chain Solution e Nexio.
+Contenuti ricavati dalla presentazione aziendale di 25 pagine e dai due articoli forniti dall’utente, con correzioni successive che prevalgono sul materiale originale. Escluse pagine e sezioni indicate dall’utente. I nomi attuali sono FinCorex, System Open Banking, Chain Solution e NexioDesk.
 
 Le dichiarazioni ISO 27001, conformità PSD2/GDPR e SLA derivano dal materiale aziendale fornito: in questa sessione non sono stati esaminati attestati, scadenze o perimetri di certificazione. La presenza di Fintexa come Partner Tecnologico pagoPA è stata controllata nella [scheda ufficiale](https://www.pagopa.gov.it/it/pubbliche-amministrazioni/partner-intermediari/11359430961.html). Non è stata attribuita la qualifica «Partner Tecnologico Qualificato».
 
 Riferimenti per il flusso pagoPA: [Partner e Intermediari](https://www.pagopa.gov.it/it/pubbliche-amministrazioni/partner-intermediari/) e [ruolo del PSP](https://assistenza.pagopa.gov.it/hc/it/articles/39315652190097-Che-cos-%C3%A8-un-gestore-del-pagamento-PSP). I collegamenti degli schemi descrivono flussi informativi e funzionali, non custodia o trasferimento diretto di fondi da parte di Fintexa.
 
-Il rapporto fra denominazione Core Fintexa e WMOS non viene rappresentato come gerarchia tecnica o equivalenza. Nessun logo di associazioni o di partner è stato inventato. Nessun dato di conto illustrativo è presentato come reale.
+Il rapporto fra la denominazione FinCorex e WMOS non viene rappresentato come gerarchia tecnica o equivalenza. Nessun logo di associazioni o di partner è stato inventato. Nessun dato di conto illustrativo è presentato come reale.
 
 La documentazione interna di lavorazione è separata da questa cartella. Il repository e il sito della precedente presentazione rimangono distinti da questo progetto.

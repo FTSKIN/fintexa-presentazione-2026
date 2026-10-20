@@ -248,7 +248,7 @@
 .nexio-module{position:absolute;left:6cqw;top:46cqh;width:40cqw;height:39cqh;border:1px solid #8bc8ee65;border-radius:1.1cqw;background:linear-gradient(145deg,#285f85a8,#0c2a43da);box-shadow:inset 0 1px #c9ebff3d,0 18px 42px #0002;padding:3cqh 2.5cqw;overflow:hidden}
 .nexio-module:after{content:'';position:absolute;inset:-45% -25%;background:radial-gradient(circle at 35% 55%,#50b9f33b,transparent 28%);pointer-events:none}
 .nexio-module small{display:block;font-size:.85cqw;letter-spacing:.14em;color:#a8ddfb;position:relative;z-index:1}
-.nexio-module strong{display:block;font-size:8.6cqw;line-height:.95;font-weight:500;letter-spacing:-.095em;color:#8bd6ff;position:relative;z-index:1;margin-top:3cqh}
+.nexio-module strong{display:block;font-size:6.2cqw;line-height:.95;font-weight:500;letter-spacing:-.075em;color:#8bd6ff;position:relative;z-index:1;margin-top:3cqh}
 .nexio-module>div{position:absolute;left:2.6cqw;right:2.6cqw;bottom:7.5cqh;display:flex;gap:.7cqw}.nexio-module i{display:block;height:.4cqh;flex:1;border-radius:999px;background:linear-gradient(90deg,#419bd54d,#a7dfff)}
 .nexio-module>span{position:absolute;left:2.6cqw;bottom:3.2cqh;font-size:.8cqw;letter-spacing:.12em;color:#b9def3}
 
@@ -286,7 +286,7 @@
   .ob-hub{position:relative;grid-column:1/-1;left:auto;right:auto;top:auto;bottom:auto;height:78px;padding:17px 20px;display:flex;flex-direction:row;justify-content:center;align-items:baseline;gap:10px;border-radius:12px}.ob-hub small{font-size:9px}.ob-hub strong{font-size:16px}
   .ob-path{top:86px!important;width:1px!important;height:48px!important;background:#419bd58c!important}.ob-path-a{left:16.7%!important}.ob-path-b{left:50%!important}.ob-path-c{left:83.3%!important}
   .nexio-module,.choice-graphic{position:relative;left:auto;right:auto;top:auto;width:100%;height:260px;margin-top:34px;border-radius:14px}
-  .nexio-module{padding:26px}.nexio-module small{font-size:10px}.nexio-module strong{font-size:72px;margin-top:24px}.nexio-module>div{left:26px;right:26px;bottom:58px}.nexio-module>span{left:26px;bottom:24px;font-size:9px}
+  .nexio-module{padding:26px}.nexio-module small{font-size:10px}.nexio-module strong{font-size:52px;margin-top:24px;letter-spacing:-.065em}.nexio-module>div{left:26px;right:26px;bottom:58px}.nexio-module>span{left:26px;bottom:24px;font-size:9px}
   .choice-graphic span{font-size:10px}.cg-client{height:88px}.cg-own,.cg-proposed{height:70px}.choice-graphic i{top:88px;height:82px}.console-bar i{position:static;top:auto;width:6px;height:6px}.choice-console{padding:52px 16px 14px;border-radius:14px}.console-bar{height:42px;padding:0 16px}.console-bar span{font-size:8px}.console-lane{padding:12px;margin-bottom:10px;border-radius:10px}.console-lane small{font-size:8px}.console-lane strong{font-size:13px}.console-lane>span{font-size:7px;padding:6px 8px}.console-core{padding:12px;border-radius:10px}.console-core b{font-size:13px}.console-core span{font-size:8px}
   .network:after{width:90cqw;height:90cqw;right:-42cqw;top:120px}
   .contact-block{padding:26px 24px;border-radius:14px}.closing-claim{display:grid;margin-top:60px;width:max-content;padding:12px 16px}.closing-claim span:first-child{font-size:9px}.closing-claim strong{font-size:28px}.closing-claim span:last-child{font-size:14px}
