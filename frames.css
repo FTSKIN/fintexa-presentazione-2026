@@ -162,6 +162,29 @@
 
 /* Certificazioni: card regolari, testi contenuti e gerarchia leggibile. */
 @media(min-width:701px) and (min-aspect-ratio:4/5){
+  /* Partner: una griglia stabile evita che etichetta e descrizione si comprimano. */
+  .choice-core{
+    display:grid;grid-template-columns:23cqw minmax(0,1fr);align-items:center;gap:2.4cqw;
+    padding:1.7cqh 2cqw;border:1px solid #8bc8ee70;border-radius:1.05cqw;background:linear-gradient(135deg,#ffffffc9,#dcecf6a8);
+    box-shadow:inset 0 1px #fff,0 14px 34px #0d305210
+  }
+  .choice-core strong{font-size:1.35cqw;line-height:1.25;white-space:normal;letter-spacing:.025em}
+  .choice-core p{font-size:1.4cqw;line-height:1.4;max-width:none;margin:0}
+
+  /* Ecosistema: tutti i nomi condividono la stessa gerarchia tipografica. */
+  .network-names>div,.network-names>div:last-child{
+    display:flex;align-items:center;min-height:11.5cqh;font-size:2.35cqw;line-height:1.15;font-weight:500;
+    letter-spacing:-.035em;color:var(--ink)
+  }
+
+  /* Certificazioni: lo scudo diventa un fondale in vetro dietro alle card. */
+  .assurance{isolation:isolate}
+  .security-visual{
+    right:2cqw;top:30cqh;width:34cqw;height:58cqh;z-index:0;opacity:.34;
+    filter:drop-shadow(0 0 2.8cqw #5fc5ff70) saturate(1.18);
+    transform:rotate(3deg)
+  }
+  .iso-panel,.assurance-list{z-index:2;backdrop-filter:blur(15px) saturate(1.12)}
   .assurance-list{top:48cqh;bottom:7cqh;display:grid;grid-template-rows:1fr 1fr .82fr;gap:1.1cqh}
   .assurance-list article{min-height:0;padding:1.55cqh 1.55cqw;border:1px solid #8bc8ee70;overflow:hidden}
   .assurance-list article>span{display:block;margin:0;font-size:1.05cqw;line-height:1.2;letter-spacing:.07em}
@@ -360,4 +383,62 @@
   .account-output{padding:0;display:grid;gap:12px;margin-top:24px}
   .account-output article{padding:22px 20px}
   .account-output h3{font-size:21px;margin:0}.account-output p{font-size:16px;margin-top:9px}
+}
+
+/* Mobile: composizione autonoma, proporzioni e ritmo uniformi. */
+@media(max-width:700px),(max-aspect-ratio:4/5){
+  .stage{scroll-padding:96px 0 120px}
+  .slide{padding:106px 22px 120px}
+  .brand{left:22px;top:30px;width:148px}
+  .slide>h2,.product-heading h2,.manifesto h2,.banking>h2,.open-banking>h2,.history>h2,.closing>h2,.assurance>h2,.public-services>h2,.choice>h2{
+    font-size:clamp(32px,9vw,38px);line-height:1.12;letter-spacing:-.045em;text-wrap:balance
+  }
+  .intro,.open-banking>.intro,.banking>.intro,.manifesto-copy,.product-heading>p:last-child,.public-copy{
+    font-size:18px;line-height:1.52;text-wrap:pretty
+  }
+  .glass-surface{border-radius:16px}
+  .core-band{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;margin-top:34px}
+  .core-name{padding:26px 22px}
+  .core-routes{display:none}
+  .core-capabilities{gap:14px}
+  .core-capabilities p{padding:22px 20px;gap:8px;border-radius:16px}
+  .core-capabilities strong{font-size:21px;line-height:1.25}
+  .core-capabilities span{font-size:17px;line-height:1.48}
+  .solution-list{gap:14px;margin-top:32px}
+  .solution-list a{min-height:0;padding:22px 20px;grid-template-columns:24px minmax(0,1fr) 18px;align-items:start}
+  .solution-list strong{font-size:21px;line-height:1.28;text-wrap:balance}
+  .solution-list small{font-size:16px;line-height:1.48}
+  .open-services,.product-features,.banking-grid,.chain-topics,.public-band,.payment-steps,.nexio-list,.network-names,.assurance-list{gap:14px}
+  .open-services article,.product-features article,.banking-grid article,.chain-topics article,.public-band>div,.payment-steps li,.nexio-list p,.network-names>div,.assurance-list article{
+    margin:0;padding:22px 20px;border-radius:16px
+  }
+  .open-services article:first-child,.chain-topics article:first-child,.public-band>div:first-child{margin-top:0}
+  .service-code{font-size:34px;margin-bottom:14px}
+  .account-flow{margin-top:28px}
+  .accounts-input>div{padding:18px 20px;border-radius:14px}
+  .account-engine{padding:24px 22px;border-radius:16px}
+  .account-output article{padding:21px 20px;border-radius:16px}
+  .account-caption{margin-top:28px;padding-bottom:4px}
+  .product-heading>p:last-child{margin-top:22px}
+  .product-features{margin-top:30px}
+  .product-features article{grid-template-columns:minmax(0,1fr)}
+  .product-features article>span{margin-bottom:10px}
+  .banking-grid{margin-top:32px}
+  .chain-topics{margin-top:52px}
+  .public-band{margin-top:32px}
+  .payment-steps{margin-top:32px}
+  .role-band{margin-top:26px;padding:24px 20px;border:1px solid #8bc8ee70;border-radius:16px}
+  .choice-options{margin-top:32px}
+  .choice-options article{padding:24px 22px;border-radius:16px}
+  .choice-core{display:grid;gap:10px;margin-top:30px;padding:24px 22px;border:1px solid #8bc8ee70;border-radius:16px}
+  .choice-core strong{font-size:15px;line-height:1.35}
+  .choice-core p{font-size:17px;line-height:1.5;margin:0}
+  .network-names{margin-top:32px}
+  .network-names>div{font-size:24px;line-height:1.25}
+  .security-visual{display:block;margin:26px auto 0}
+  .iso-panel{margin-top:30px;padding:26px 24px}
+  .iso-panel b{font-size:clamp(70px,21vw,84px)}
+  .contact-block{width:100%;padding:24px 22px}
+  .contact-block a{font-size:21px;line-height:1.35}
+  .closing-claim{margin-top:52px}
 }
