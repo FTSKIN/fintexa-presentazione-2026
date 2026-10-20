@@ -16,7 +16,7 @@
  modal.addEventListener('close',()=>toggle.setAttribute('aria-expanded','false'));
  const fullscreen=()=>{if(document.fullscreenElement)document.exitFullscreen?.();else document.documentElement.requestFullscreen?.();};
  document.getElementById('fullscreen').addEventListener('click',fullscreen);
- const glassSelector='.manifesto-base p,.timeline li,.solution-list a,.open-services article,.product-features article,.banking-grid article,.chain-topics article,.public-band>div,.payment-steps li,.nexio-list p,.network-names>div,.choice-options article,.core-name,.contact-block,.accounts-input>div,.account-engine,.choice-core,.manifesto-graphic,.ob-graphic,.nexio-module,.choice-console,.iso-panel,.assurance-list article,.core-capabilities p,.account-output article,.account-live';
+ const glassSelector='.manifesto-base p,.timeline li,.solution-list a,.open-services article,.product-features article,.banking-grid article,.chain-topics article,.public-band>div,.payment-steps li,.nexio-list p,.network-names>a,.choice-options article,.core-name,.contact-block,.accounts-input>div,.account-engine,.choice-core,.manifesto-graphic,.ob-graphic,.nexio-module,.choice-console,.iso-panel,.assurance-list article,.core-capabilities p,.account-output article,.account-live';
  document.querySelectorAll(glassSelector).forEach(el=>el.classList.add('glass-surface'));
  const copySelector='.slide h1,.slide h2,.slide h3,.slide .intro,.slide .manifesto-copy,.slide .public-copy,.slide .eyebrow,.slide .product-heading>p:last-child,.slide .role-band,.slide .product-tag,.slide .account-caption,.slide .closing-claim';
  document.querySelectorAll(copySelector).forEach(el=>el.classList.add('interactive-copy'));
